@@ -1,4 +1,4 @@
-package com.bookmie.letshelp.utils.common;
+package com.bookmie.iscriminal.utils.common;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package com.bookmie.letshelp.utils.configs.security;
+package com.bookmie.iscriminal.utils.configs.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -14,9 +14,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.bookmie.letshelp.auths.services.CustomUserDetailsService;
-import com.bookmie.letshelp.utils.configs.security.jwtSecurity.JwtAuthFilter;
-
+import com.bookmie.iscriminal.auths.services.CustomUserDetailsService;
+import com.bookmie.iscriminal.utils.configs.security.jwtSecurity.JwtAuthFilter;
 
 @Configuration
 public class SecurityConfig {
@@ -29,7 +28,7 @@ public class SecurityConfig {
   }
 
   @Bean
-  public JwtAuthFilter jwtAuthFilter(){
+  public JwtAuthFilter jwtAuthFilter() {
     return new JwtAuthFilter();
   }
 

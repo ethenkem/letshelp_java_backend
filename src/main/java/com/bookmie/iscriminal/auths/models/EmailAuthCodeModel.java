@@ -1,4 +1,4 @@
-package com.bookmie.letshelp.auths.models;
+package com.bookmie.iscriminal.auths.models;
 
 import java.time.Instant;
 import java.time.LocalDateTime;

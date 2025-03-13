@@ -1,3 +1,3 @@
-package com.bookmie.letshelp.auths.dtos;
+package com.bookmie.iscriminal.auths.dtos;
 
 public record EmailAuthRequest(String email, String code) {}

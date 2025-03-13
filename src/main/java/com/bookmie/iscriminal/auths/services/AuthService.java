@@ -1,4 +1,4 @@
-package com.bookmie.letshelp.auths.services;
+package com.bookmie.iscriminal.auths.services;
 
 import java.util.Optional;
 
@@ -6,13 +6,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.bookmie.letshelp.auths.dtos.EmailAuthRequest;
-import com.bookmie.letshelp.auths.dtos.SignupRequest;
-import com.bookmie.letshelp.auths.models.AuthModel;
-import com.bookmie.letshelp.auths.models.EmailAuthCodeModel;
-import com.bookmie.letshelp.auths.repositories.AuthUserRepository;
-import com.bookmie.letshelp.auths.repositories.EmailAuthCodesRepository;
-import com.bookmie.letshelp.utils.common.CommonUtils;
+import com.bookmie.iscriminal.auths.dtos.EmailAuthRequest;
+import com.bookmie.iscriminal.auths.dtos.SignupRequest;
+import com.bookmie.iscriminal.auths.models.AuthModel;
+import com.bookmie.iscriminal.auths.models.EmailAuthCodeModel;
+import com.bookmie.iscriminal.auths.repositories.AuthUserRepository;
+import com.bookmie.iscriminal.auths.repositories.EmailAuthCodesRepository;
+import com.bookmie.iscriminal.utils.common.CommonUtils;
 
 @Service
 public class AuthService {

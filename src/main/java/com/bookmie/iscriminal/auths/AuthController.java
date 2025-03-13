@@ -1,4 +1,4 @@
-package com.bookmie.letshelp.auths;
+package com.bookmie.iscriminal.auths;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bookmie.letshelp.auths.dtos.EmailAuthRequest;
-import com.bookmie.letshelp.auths.dtos.ResponseDto;
-import com.bookmie.letshelp.auths.dtos.SignupRequest;
-import com.bookmie.letshelp.auths.models.AuthModel;
-import com.bookmie.letshelp.auths.services.AuthService;
+import com.bookmie.iscriminal.auths.dtos.EmailAuthRequest;
+import com.bookmie.iscriminal.auths.dtos.ResponseDto;
+import com.bookmie.iscriminal.auths.dtos.SignupRequest;
+import com.bookmie.iscriminal.auths.models.AuthModel;
+import com.bookmie.iscriminal.auths.services.AuthService;
 
 @RestController
 @RequestMapping("/auths")

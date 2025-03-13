@@ -1,4 +1,4 @@
-package com.bookmie.letshelp.utils.configs.security.jwtSecurity;
+package com.bookmie.iscriminal.utils.configs.security.jwtSecurity;
 
 import java.io.IOException;
 
@@ -9,7 +9,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
-import com.bookmie.letshelp.auths.services.CustomUserDetailsService;
+import com.bookmie.iscriminal.auths.services.CustomUserDetailsService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

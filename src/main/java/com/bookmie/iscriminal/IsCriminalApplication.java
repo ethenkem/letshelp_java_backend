@@ -1,4 +1,4 @@
-package com.bookmie.letshelp;
+package com.bookmie.iscriminal;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -11,9 +11,9 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @SpringBootApplication
 @EnableWebMvc
-public class LetshelpApplication {
+public class IsCriminalApplication {
   
   public static void main(String[] args) {
-    SpringApplication.run(LetshelpApplication.class, args);
+    SpringApplication.run(IsCriminalApplication.class, args);
   }
 }

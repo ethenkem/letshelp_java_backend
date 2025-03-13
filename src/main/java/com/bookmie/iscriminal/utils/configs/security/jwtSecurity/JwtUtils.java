@@ -1,4 +1,4 @@
-package com.bookmie.letshelp.utils.configs.security.jwtSecurity;
+package com.bookmie.iscriminal.utils.configs.security.jwtSecurity;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Date;

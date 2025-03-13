@@ -1,7 +1,7 @@
-package com.bookmie.letshelp.auths.services;
+package com.bookmie.iscriminal.auths.services;
 
-import com.bookmie.letshelp.auths.models.AuthModel;
-import com.bookmie.letshelp.auths.repositories.AuthUserRepository;
+import com.bookmie.iscriminal.auths.models.AuthModel;
+import com.bookmie.iscriminal.auths.repositories.AuthUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.*;
 import org.springframework.stereotype.Service;
